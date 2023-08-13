@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="profilestyles.css">
+    <script src="https://kit.fontawesome.com/89c5215fa6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <nav>
+
+        <div class="nav-left">
+            <a href="index.html"><img src="images/logo.png" class="logo"></a>
+            
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+
+        <!------------------------- Settings Menu ------------------------>
+
+        <div class="settings-menu">
+
+            <div id="dark-button">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Kuntal Pramanik</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+    
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </nav>
+
+
+    <!------------------------ Profile Page ---------------------->
+
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile-pic.png" class="pd-image">
+                    <div>
+                        <h3>Kuntal Pramanik</h3>
+                        <p>119 Friends</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png" class="shift">
+                        <img src="images/member-3.png" class="shift">
+                        <img src="images/member-4.png" class="shift">
+                        <img src="images/member-5.png" class="shift">
+                    </div>
+                </div>
+            </div>
+
+            <div class="pd-right">
+                <button type="button" class="add-to-story-button"><i class="fa-solid fa-plus"></i> Add to story</button>
+                <button type="button" class="edit-profile-button"><i class="fa-solid fa-pen"></i> Edit profile</button>
+                <button type="button" class="down-arrow-button"><i class="fa-solid fa-angle-down"></i></button>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-column">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Life has no limitations, except the ones you make.</p>
+                    <button type="button"> <strong>Edit Bio</strong> </button>
+                    <hr>
+
+                    <ul>
+                        <li><img src="images/profile-study.png">Studies B.tech. in CSE (Computer Science & Engineering) at Brainware University </li>
+                        <li><img src="images/profile-study.png">Went to Authpur National Model Higher Secondary School </li>
+                        <li><img src="images/profile-home.png">Lives in Shyamnagar, West Bengal</li>
+                        <li><img src="images/profile-insta.png"><a href="">i.am.kuntalpramanik</a></li>
+                    </ul>
+
+                    <button type="button"> <strong>Edit Details</strong> </button>
+                    <button type="button"> <strong>Add Hobbies</strong> </button>
+                    <button type="button"> <strong>Add Featured</strong> </button>
+                </div>
+            </div>
+
+
+            <div class="post-column">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Kuntal Pramanik</p>
+                            <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Kuntal?"></textarea>
+    
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png"> Live Video</a>
+                            <a href="#"><img src="images/photo.png"> Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png"> Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Kuntal Pramanik</p>
+                                <span>2 August</span>
+                            </div>
+                        </div>
+    
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">My GitHub Profile : <a href="https://github.com/KuntalPramanik25"> <span>@KuntalPramanik25</span> </a>
+                    <br> <a href="#">#ProfileLinks</a></p>
+    
+                    <img src="images/pp-feedimage1.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div> <img src="images/like-blue.png"> 60</div>
+                            <div> <img src="images/comments.png"> 20</div>
+                            <div> <img src="images/share.png"> 5</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Kuntal Pramanik</p>
+                                <span>21 July</span>
+                            </div>
+                        </div>
+    
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">My LinkedIn Profile : <a href="www.linkedin.com/in/kuntalpramanik"> <span>@KuntalPramanik</span> </a>
+                    <br> <a href="#">#ProfileLinks</a></p>
+    
+                    <img src="images/pp-feedimage2.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div> <img src="images/like-blue.png"> 60</div>
+                            <div> <img src="images/comments.png"> 20</div>
+                            <div> <img src="images/share.png"> 5</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Kuntal Pramanik</p>
+                                <span>4 July</span>
+                            </div>
+                        </div>
+    
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">My Portfolio : <a href="https://kuntalpramanik25.github.io/My-Portfolio/"> <span>@Portfolio : Kuntal Pramanik</span> </a>
+                    <br> <a href="#">#Links</a> <a href="#">#HTML</a> <a href="#">#CSS</a></p>
+    
+                    <img src="images/pp-feedimage3.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div> <img src="images/like-blue.png"> 60</div>
+                            <div> <img src="images/comments.png"> 20</div>
+                            <div> <img src="images/share.png"> 5</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        <p>Copyright 2023 Kuntal Pramanik</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!--
+    <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Kuntal Pramanik</p>
+                            <span>4 July</span>
+                        </div>
+                    </div>
+
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">My GitHub Profile : <a href="https://github.com/KuntalPramanik25"> <span>@KuntalPramanik25</span> </a>
+                <br> <a href="#">#ProfileLinks</a></p>
+
+                <img src="images/pp-feedimage1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div> <img src="images/like-blue.png"> 60</div>
+                        <div> <img src="images/comments.png"> 20</div>
+                        <div> <img src="images/share.png"> 5</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Kuntal Pramanik</p>
+                            <span>4 July</span>
+                        </div>
+                    </div>
+
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">My LinkedIn Profile : <a href="www.linkedin.com/in/kuntalpramanik"> <span>@KuntalPramanik</span> </a>
+                <br> <a href="#">#ProfileLinks</a></p>
+
+                <img src="images/pp-feedimage2.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div> <img src="images/like-blue.png"> 60</div>
+                        <div> <img src="images/comments.png"> 20</div>
+                        <div> <img src="images/share.png"> 5</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->

@@ -1,0 +1,170 @@
+.profile-container
+{
+    padding: 20px 15%;
+    color: var(--text-color);
+}
+
+.cover-img
+{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile-details
+{
+    background: var(--bg-color);
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.pd-row
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.pd-image
+{
+    width: 175px;
+    margin: -100px 20px 0;
+    border: 5px solid var(--bg-color);
+    border-radius: 50%;
+    margin-top: -75px;
+}
+
+.pd-row div h3
+{
+    font-family: "Proxima-Nova-Bold";
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+.pd-row div p
+{
+    font-size: 15px;
+}
+
+.pd-row div img
+{
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+.pd-row div img.shift
+{
+    margin-left: -10px;
+}
+
+.pd-right button
+{
+    outline: 0;
+    border: 0;
+    padding: 6px 10px;
+    margin-left: 5px;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pd-right .add-to-story-button
+{
+    background: #1876f2;
+    color: white;
+}
+
+.pd-right .add-to-story-button:hover
+{
+    background: #156ad8;
+}
+
+.pd-right .edit-profile-button:hover, .pd-right .down-arrow-button:hover
+{
+    background: #ccc;
+}
+
+.profile-info
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info-column
+{
+    flex-basis: 33%;
+}
+
+.post-column
+{
+    flex-basis: 65%;
+}
+
+.profile-intro
+{
+    background: var(--bg-color);
+    padding: 20px 20px 5px 20px;
+    border-radius: 10px;
+}
+
+.profile-intro h3
+{
+    font-family: "Proxima-Nova-Bold";
+}
+
+.intro-text
+{
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.profile-intro hr
+{
+    border: 0;
+    height: 1px;
+    background: #9a9a9a;
+}
+
+.profile-intro button
+{
+    background: var(--profile-intro-button);
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 7px 0;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.profile-intro button:hover
+{
+    background: var(--add-post-hover);
+}
+
+.profile-intro ul li
+{
+    list-style: none;
+    font-size: 15px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.profile-intro ul li img
+{
+    width: 18px;
+    margin-right: 10px;
+}
+
+.profile-intro ul li a
+{
+    color: #1876f2;
+    text-decoration: none;
+}
